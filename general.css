@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&display=swap');
+
+::-webkit-scrollbar {
+	width: 6px;
+	background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fff;
+	border: 1px #FFF solid;
+	border-radius: 3px;
+}
+
+button {
+	border: none;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	position: static;
+	padding: 15px;
+	width: 100%;
+	z-index: 8;
+}
+#logo {
+	max-width: 120px;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    --nav-color: #F1F1F4;
+    --cover-color: rgba(4, 37, 67, .75);
+	--primary-color: #fff;
+	--secondary-color: #DFDFDF;
+	--identity-color: #39C00A;
+	--odd-sections-bg: #D9D9D9;
+	--odd-sections-titles-color: #2E2121;
+	--odd-sections-details-color: #9D8181;
+	--even-sections-bg: #201E24;
+	--even-sections-titles-color: #D9D9D9;
+	--even-sections-details-color: #BABABA;
+}
+
+body, main {
+	background: #fff;
+}
+
+li,a,button,p,h1,h2,input,label,h4,h3,details,summary,select,option {
+	font-family: 'Alexandria', sans-serif;
+	text-decoration: none;
+}
+
+header li,a,button {
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--nav-color);
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+#nav-links li {
+	display: inline-block;
+	padding: 0 28px;
+	transition: all 150ms ease-in-out;
+}
+
+#nav-links li a {
+	position: relative;
+	transition: 150ms ease-in-out;
+	color: var(--nav-color);
+}
+
+#nav-links li a:hover {
+	color: var(--identity-color);
+}
+
